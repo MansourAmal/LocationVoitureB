@@ -13,7 +13,7 @@ const voitureSchema = new Schema({
     fueltype: { type: String, enum: ['Diesel', 'Essence'] },
     disponibilité: { type: Boolean, default: true },
     imgUrl: {type:String},
-   // dateLastResa:{type:date},
+   
 });
 
 
